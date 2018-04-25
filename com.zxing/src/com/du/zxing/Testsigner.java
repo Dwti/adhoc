@@ -16,7 +16,7 @@ public class Testsigner {
 //		st=st.replace("\\", "/");
 //		System.out.println(st.toString());
 		String path=null;
-		String file = "F:\\V1.0.0\\";//需要读取的文件路径
+		String file = "F:\\v3.1\\packages\\";//需要读取的文件路径
 		BufferedReader br = null;
 		Process p;
 		Readfile cm=new Readfile();
@@ -34,7 +34,7 @@ public class Testsigner {
 		    	break;
 		    }
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
+			
 			e.printStackTrace();
 		}finally{
 			if(br != null){

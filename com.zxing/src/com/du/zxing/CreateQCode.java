@@ -19,7 +19,7 @@ public class CreateQCode {
 		int width=300;
 		int height=300;
 		String format="png";
-		String content="皮皮虾我们走";
+		String content="http://appupdate.yanxiu.com/storage/upload/release/yyxyl_3.1.1-others-20171113_.apk";
 		//定义二维码参数
 		HashMap hints=new HashMap();
 		hints.put(EncodeHintType.CHARACTER_SET, "utf-8");
